@@ -4,150 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Menu</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f5f1eb;
-            padding: 50px; 
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .menu-container {
-            background-color: #f5f1eb;
-            border: 3px solid #c53030;
-            max-width: 400px;
-            width: 100%;
-            padding: 40px 30px;
-            margin: 0 auto;
-        }
-
-        .menu-header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-        .menu-title {
-            font-size: 3.5rem;
-            font-weight: bold;
-            color: #c53030;
-            letter-spacing: 0.3em;
-            margin-bottom: 20px;
-            line-height: 1;
-        }
-
-        .menu-subtitle {
-            font-size: 1rem;
-            color: #c53030;
-            letter-spacing: 0.4em;
-            font-weight: normal;
-            position: relative;
-        }
-
-        .menu-subtitle::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 1px;
-            background-color: #c53030;
-            margin: 15px auto 0;
-        }
-
-        .menu-items {
-            list-style: none;
-        }
-
-        .menu-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 20px;
-            position: relative;
-        }
-
-        .item-name {
-            font-size: 1.1rem;
-            color: #333;
-            font-weight: normal;
-            background-color: #f5f1eb;
-            padding-right: 8px;
-            z-index: 1;
-            position: relative;
-        }
-
-        .item-price {
-            font-size: 1.1rem;
-            color: #333;
-            font-weight: normal;
-            background-color: #f5f1eb;
-            padding-left: 8px;
-            z-index: 1;
-            position: relative;
-        }
-
-        .menu-item::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background-image: repeating-linear-gradient(
-                to right,
-                #999 0,
-                #999 2px,
-                transparent 2px,
-                transparent 6px
-            );
-            z-index: 0;
-        }
-
-        /* Mobile optimizations */
-        @media (max-width: 480px) {
-            body {
-                padding: 20px;
-            }
-            
-            .menu-container {
-                padding: 30px 40px;
-            }
-            
-            .menu-title {
-                font-size: 2.8rem;
-                letter-spacing: 0.2em;
-            }
-            
-            .menu-subtitle {
-                font-size: 0.9rem;
-                letter-spacing: 0.3em;
-            }
-            
-            .item-name,
-            .item-price {
-                font-size: 1rem;
-            }
-        }
-
-        @media (max-width: 320px) {
-            .menu-title {
-                font-size: 2.4rem;
-                letter-spacing: 0.15em;
-            }
-            
-            .item-name,
-            .item-price {
-                font-size: 0.95rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="menu-container">
@@ -245,7 +102,7 @@
         </ul>
 
         <div class="menu-header">
-    <h2 class="menu-subtitle">Salads</h2>
+    <h2 class="menu-subtitle">SALADS</h2>
 </div>
 <ul class="menu-items">
     <li class="menu-item">
@@ -271,7 +128,7 @@
 </ul>
 
 <div class="menu-header">
-    <h2 class="menu-subtitle">Appetizers</h2>
+    <h2 class="menu-subtitle">APPETIZERS</h2>
 </div>
 <ul class="menu-items">
     <li class="menu-item"><span class="item-name">Hommos</span><span class="item-price">400,000 L.L</span></li>
@@ -313,7 +170,7 @@
 </ul>
 
 <div class="menu-header">
-    <h2 class="menu-subtitle">Pastries</h2>
+    <h2 class="menu-subtitle">PASTRIES</h2>
 </div>
 <ul class="menu-items">
     <li class="menu-item"><span class="item-name">Kebbeh (Meat)</span><span class="item-price">500,000 L.L</span></li>
@@ -324,7 +181,7 @@
 </ul>
 
 <div class="menu-header">
-    <h2 class="menu-subtitle">Grills</h2>
+    <h2 class="menu-subtitle">GRILLS</h2>
 </div>
 <ul class="menu-items">
     <li class="menu-item"><span class="item-name">Mixed Grills</span><span class="item-price">1,800,000 L.L</span></li>
