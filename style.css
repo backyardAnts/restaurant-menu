@@ -17,7 +17,7 @@
 
         .menu-container {
             background-color: #f5f1eb;
-            border: 3px solid #c53030;
+            border: 3px solid #8B0000;
             max-width: 400px;
             width: 100%;
             padding: 40px 30px;
@@ -34,26 +34,23 @@
             font-weight: bold;
             color: #8B0000;
             letter-spacing: 0.3em;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             line-height: 1;
         }
 
         .menu-subtitle {
+            text-decoration: underline;
             font-size: 1rem;
             color: #8B0000;
             letter-spacing: 0.4em;
             font-weight: normal;
             position: relative;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 8px;
+            margin-bottom: 30px;
+
         }
 
-        .menu-subtitle::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 1px;
-            background-color: #8B0000;
-            margin: 15px auto 0;
-        }
 
         .menu-items {
             list-style: none;
