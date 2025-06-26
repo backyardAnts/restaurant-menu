@@ -257,8 +257,11 @@ html {
 /* Responsive tweaks */
 @media (max-width: 480px) {
     .menu-nav-link {
-        font-size: 0.95rem;
+        font-size: 0.8rem;
         padding: 6px 10px;
+    }
+    .test{
+        font-size: 1rem;
     }
 }
 .scroll-top-inside {
