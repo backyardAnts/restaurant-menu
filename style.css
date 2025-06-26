@@ -235,16 +235,19 @@ html {
     gap: 15px;
     padding: 0;
     margin: 0;
+
 }
 
 .menu-nav-link {
+    
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #8B0000;
     font-weight: bold;
     padding: 8px 12px;
-    border: 2px solid transparent;
     transition: all 0.3s ease;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .menu-nav-link:hover {
@@ -252,6 +255,7 @@ html {
     background-color: #8B0000;
     color: #f5f1eb;
     border-radius: 4px;
+    
 }
 
 /* Responsive tweaks */
