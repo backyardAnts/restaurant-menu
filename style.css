@@ -12,9 +12,11 @@ html {
             background-color: #f5f1eb;
             padding: 50px; 
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
+            display:flex;
+            flex-direction: column;
             align-items: center;
+            justify-content: center;
+            gap: 2rem;
         }
 
         .menu-container {
@@ -295,4 +297,8 @@ html {
 
 html {
     scroll-behavior: smooth;
+}
+a{
+    color: #8B0000;
+    font-size: 4rem;
 }
